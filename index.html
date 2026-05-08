@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lumière & Co. — Wedding Planners</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ─── NAVBAR ─── -->
+  <nav class="nav" id="navbar">
+    <div class="nav-logo">Lumière <span>&</span> Co.</div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#inquiry" class="nav-cta">Inquire</a></li>
+    </ul>
+    <button class="hamburger" id="ham" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mob-menu" id="mobMenu">
+    <ul>
+      <li><a href="#about"    class="ml">About</a></li>
+      <li><a href="#services" class="ml">Services</a></li>
+      <li><a href="#gallery"  class="ml">Gallery</a></li>
+      <li><a href="#inquiry"  class="ml">Inquire</a></li>
+    </ul>
+  </div>
+
+  <!-- ─── HERO ─── -->
+  <section class="hero" id="home">
+    <div class="hero-img"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-tag">Est. 2012 · Paris · New York · Mumbai</p>
+      <h1 class="hero-title">
+        Where Love<br/><em>Becomes Legacy</em>
+      </h1>
+      <p class="hero-sub">
+        Bespoke wedding experiences crafted for those who believe every moment deserves to be extraordinary.
+      </p>
+      <div class="hero-btns">
+        <a href="#inquiry" class="btn btn-dark">Begin Your Story</a>
+        <a href="#services" class="btn btn-outline">Explore Services</a>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ─── ABOUT ─── -->
+  <section class="about section" id="about">
+    <div class="container about-grid">
+      <div class="about-img-wrap reveal">
+        <img
+          class="about-img"
+          src="https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=800&q=80"
+          alt="Bride and groom in elegant setting"
+        />
+        <div class="about-badge">
+          15+<br/><small>Years of<br/>Excellence</small>
+        </div>
+      </div>
+      <div class="about-text">
+        <p class="label reveal">Our Philosophy</p>
+        <h2 class="title reveal">
+          Crafting stories<br/><em>written in flowers<br/>&amp; forever</em>
+        </h2>
+        <p class="body-p reveal">
+          At Lumière &amp; Co., we believe a wedding is not merely a day — it is the opening chapter of your most beautiful story. Our world-class designers, floral artists, and experience curators work in perfect harmony to transform your vision into an unforgettable reality.
+        </p>
+        <p class="body-p reveal">
+          From intimate garden ceremonies to grand ballroom galas, we bring uncompromising attention to every petal, every candleflame, every whispered vow.
+        </p>
+        <div class="stats reveal">
+          <div class="stat"><span class="stat-num" data-t="850">0</span><small>Weddings Curated</small></div>
+          <div class="stat"><span class="stat-num" data-t="42">0</span><small>Countries Served</small></div>
+          <div class="stat"><span class="stat-num" data-t="99">0</span><small>% Satisfaction</small></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── SERVICES ─── -->
+  <section class="services section" id="services">
+    <div class="container">
+      <div class="sec-header">
+        <p class="label reveal">What We Offer</p>
+        <h2 class="title reveal">Services tailored to<br/><em>your every dream</em></h2>
+      </div>
+      <div class="svc-grid">
+        <div class="svc-card reveal">
+          <div class="svc-icon">✦</div>
+          <h3>Full Planning</h3>
+          <p>From the very first vision board to the final farewell dance — we orchestrate every detail of your perfect day.</p>
+          <a href="#inquiry" class="svc-link">Learn More →</a>
+        </div>
+        <div class="svc-card reveal">
+          <div class="svc-icon">❧</div>
+          <h3>Partial Planning</h3>
+          <p>Already started planning? We step in seamlessly to elevate your preparations and manage day-of logistics.</p>
+          <a href="#inquiry" class="svc-link">Learn More →</a>
+        </div>
+        <div class="svc-card reveal">
+          <div class="svc-icon">◈</div>
+          <h3>Day-Of Coordination</h3>
+          <p>Relax and be present. Our coordinators execute your vision flawlessly while you savour every moment.</p>
+          <a href="#inquiry" class="svc-link">Learn More →</a>
+        </div>
+        <div class="svc-card reveal">
+          <div class="svc-icon">✿</div>
+          <h3>Floral Design</h3>
+          <p>Bespoke floral installations, bridal bouquets, and tablescapes that transform venues into living poetry.</p>
+          <a href="#inquiry" class="svc-link">Learn More →</a>
+        </div>
+        <div class="svc-card reveal">
+          <div class="svc-icon">◎</div>
+          <h3>Destination Weddings</h3>
+          <p>From Santorini cliffs to Rajasthan palaces — we curate destination celebrations with local mastery.</p>
+          <a href="#inquiry" class="svc-link">Learn More →</a>
+        </div>
+        <div class="svc-card reveal">
+          <div class="svc-icon">♦</div>
+          <h3>Luxury Styling</h3>
+          <p>Couture table settings, custom stationery, and atmospheric lighting that frame your love in pure elegance.</p>
+          <a href="#inquiry" class="svc-link">Learn More →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── GALLERY ─── -->
+  <section class="gallery section" id="gallery">
+    <div class="container">
+      <div class="sec-header">
+        <p class="label reveal">Our Work</p>
+        <h2 class="title reveal">A glimpse into<br/><em>our world</em></h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="gitem g1 reveal">
+          <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=900&q=80" alt="Garden Ceremony" />
+        </div>
+        <div class="gitem g2 reveal">
+          <img src="https://images.unsplash.com/photo-1469371670807-013ccf25f16a?w=600&q=80" alt="Floral Arch" />
+        </div>
+        <div class="gitem g3 reveal">
+          <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=600&q=80" alt="Reception Hall" />
+        </div>
+        <div class="gitem g4 reveal">
+          <img src="https://images.unsplash.com/photo-1550005809-91ad75fb315f?w=500&q=80" alt="Wedding Details" />
+        </div>
+        <div class="gitem g5 reveal">
+          <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=900&q=80" alt="First Dance" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── TESTIMONIALS ─── -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="t-slider">
+        <div class="t-item active">
+          <blockquote>"Lumière &amp; Co. turned our dream into something far beyond what we had imagined. Every flower, every light — it was pure magic."</blockquote>
+          <cite>— Isabelle &amp; Thomas, Paris 2024</cite>
+        </div>
+        <div class="t-item">
+          <blockquote>"From the first call to the final dance, the team was extraordinary. Our Udaipur wedding was the most beautiful day of our lives."</blockquote>
+          <cite>— Priya &amp; Arjun, Udaipur 2023</cite>
+        </div>
+        <div class="t-item">
+          <blockquote>"The attention to detail was breathtaking. Guests still talk about our wedding a year later. Worth every moment."</blockquote>
+          <cite>— Sofia &amp; James, Amalfi 2024</cite>
+        </div>
+      </div>
+      <div class="t-dots">
+        <button class="tdot active" data-i="0"></button>
+        <button class="tdot" data-i="1"></button>
+        <button class="tdot" data-i="2"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── INQUIRY FORM ─── -->
+  <section class="inquiry section" id="inquiry">
+    <div class="container">
+      <div class="sec-header">
+        <p class="label reveal">Let's Connect</p>
+        <h2 class="title reveal">Begin your<br/><em>forever story</em></h2>
+        <p class="sec-sub reveal">Every legendary love story begins with a single conversation.</p>
+      </div>
+      <form class="inquiry-form reveal" id="inquiryForm" novalidate>
+        <div class="f-row">
+          <div class="f-group">
+            <label for="p1">Your Name</label>
+            <input type="text" id="p1" placeholder="e.g. Isabelle Laurent" required />
+            <span class="ferr" id="e-p1"></span>
+          </div>
+          <div class="f-group">
+            <label for="p2">Partner's Name</label>
+            <input type="text" id="p2" placeholder="e.g. Thomas Moreau" required />
+            <span class="ferr" id="e-p2"></span>
+          </div>
+        </div>
+        <div class="f-row">
+          <div class="f-group">
+            <label for="em">Email Address</label>
+            <input type="email" id="em" placeholder="hello@youremail.com" required />
+            <span class="ferr" id="e-em"></span>
+          </div>
+          <div class="f-group">
+            <label for="ph">Phone Number</label>
+            <input type="tel" id="ph" placeholder="+1 (555) 000-0000" />
+          </div>
+        </div>
+        <div class="f-row">
+          <div class="f-group">
+            <label for="wd">Wedding Date</label>
+            <input type="date" id="wd" />
+          </div>
+          <div class="f-group">
+            <label for="sv">Service Interested In</label>
+            <select id="sv">
+              <option value="" disabled selected>Choose a service</option>
+              <option>Full Planning</option>
+              <option>Partial Planning</option>
+              <option>Day-Of Coordination</option>
+              <option>Floral Design</option>
+              <option>Destination Wedding</option>
+              <option>Luxury Styling</option>
+            </select>
+          </div>
+        </div>
+        <div class="f-group full">
+          <label for="msg">Tell Us Your Story</label>
+          <textarea id="msg" rows="5" placeholder="Share your vision, inspiration, and any details that make your love story uniquely yours..." required></textarea>
+          <span class="ferr" id="e-msg"></span>
+        </div>
+        <div class="f-footer">
+          <p class="f-note">We respond to all inquiries within 24 hours.</p>
+          <button type="submit" class="btn btn-dark" id="submitBtn">
+            <span id="btnTxt">Send Inquiry</span> →
+          </button>
+        </div>
+        <div class="success-msg" id="successMsg">
+          <div class="ico">✦</div>
+          <h3>Thank you, darling!</h3>
+          <p>Your inquiry has been received. We'll be in touch within 24 hours to begin crafting your dream wedding.</p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ─── -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <div class="footer-logo">Lumière <span>&</span> Co.</div>
+        <p class="brand-p">Crafting extraordinary moments<br/>since 2012.</p>
+      </div>
+      <div class="footer-nav">
+        <h4>Navigate</h4>
+        <ul class="footer-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#inquiry">Inquire</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact</h4>
+        <p>hello@lumiereweddings.com</p>
+        <p>+1 (212) 555-0192</p>
+        <div class="socials">
+          <a href="#" aria-label="Instagram">◈</a>
+          <a href="#" aria-label="Pinterest">✿</a>
+          <a href="#" aria-label="Facebook">◎</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Lumière &amp; Co. All rights reserved. Made with ♡</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
